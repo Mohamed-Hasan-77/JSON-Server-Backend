@@ -1,0 +1,364 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Mohamed Hasan",
+      "email": "mohamed@test.com",
+      "password": "123456",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Ahmed ",
+      "email": "ahmed@test.com",
+      "password": "password123",
+      "role": "user"
+    },
+    {
+      "id": "c6e9",
+      "name": "Sarah",
+      "email": "test@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "3b99",
+      "name": "aaa",
+      "email": "aaa@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "2dac",
+      "name": "aaa",
+      "email": "aaa@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "641a",
+      "name": "aaa",
+      "email": "aaa@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "3cf9",
+      "name": "sss",
+      "email": "sss@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "93f2",
+      "name": "Mohamed Hasan",
+      "email": "mohamed@test.com",
+      "password": "123456"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Sedan"
+    },
+    {
+      "id": "2",
+      "name": "SUV"
+    },
+    {
+      "id": "3",
+      "name": "Crossover"
+    },
+    {
+      "id": "4",
+      "name": "Coupe"
+    }
+  ],
+  "posts": [
+    {
+      "id": "101",
+      "title": "The Rise of React",
+      "description": "React has become one of the most popular front-end frameworks in the world.",
+      "image": "https://i.ibb.co/vxdHfLxG/1.png",
+      "author": "Mohamed Hasan ",
+      "userId": "1"
+    },
+    {
+      "id": "102",
+      "title": "Tailwind CSS in Action",
+      "description": "A modern utility-first CSS framework for building custom designs.",
+      "image": "https://i.ibb.co/vxdHfLxG/1.png",
+      "author": "Sarah ",
+      "userId": "3"
+    },
+    {
+      "id": "103",
+      "title": "Understanding useEffect",
+      "description": "useEffect is a powerful Hook that lets you run side effects in function components.",
+      "image": "https://i.ibb.co/vxdHfLxG/1.png",
+      "author": "Ahmed ",
+      "userId": "2"
+    },
+    {
+      "id": "6d8c",
+      "title": "new Post",
+      "description": "post description",
+      "image": "https://i.ibb.co/vxdHfLxG/1.png",
+      "userId": "1",
+      "author": "Mohamed Hasan"
+    },
+    {
+      "id": "3e7b",
+      "title": "new Post",
+      "description": "desc",
+      "image": "https://i.ibb.co/SwPF5J58/13.png",
+      "userId": "1",
+      "author": "Mohamed Hasan"
+    }
+  ],
+  "cars": [
+    {
+      "id": "1",
+      "brand": "mercedes",
+      "model": "C-Class",
+      "type": "Sedan",
+      "year": 2023,
+      "image": "https://i.ibb.co/nsqPNShM/1.png",
+      "pricePerDay": 550,
+      "availability": true,
+      "description": "Elegant and smooth sedan with advanced safety and infotainment features.",
+      "seats": 5,
+      "fuelType": "Gas",
+      "color": "Black",
+      "Gearbox": "Automatic",
+      "count": 1,
+      "isInCart": false,
+      "categoryId": 1
+    },
+    {
+      "id": "2",
+      "brand": "BMW",
+      "model": "3 Series",
+      "type": "Sedan",
+      "year": 2023,
+      "image": "https://i.ibb.co/8g3v8X83/2.png",
+      "pricePerDay": 600,
+      "availability": true,
+      "description": "The 2023 BMW 3 Series offers a blend of performance and luxury, featuring a turbocharged engine and advanced technology.",
+      "seats": 5,
+      "fuelType": "Gasoline",
+      "color": "White",
+      "Gearbox": "Automatic",
+      "count": 1,
+      "isInCart": false,
+      "categoryId": 1
+    },
+    {
+      "id": "3",
+      "brand": "Audi",
+      "model": "A4",
+      "type": "Sedan",
+      "year": 2023,
+      "image": "https://i.ibb.co/20CS9k7t/3.png",
+      "pricePerDay": 590,
+      "availability": false,
+      "description": "The 2023 Audi A4 combines elegant design with cutting-edge technology, offering a comfortable and dynamic driving experience.",
+      "seats": 5,
+      "fuelType": "Gasoline",
+      "color": "black",
+      "Gearbox": "Automatic",
+      "count": 1,
+      "isInCart": false,
+      "categoryId": 1
+    },
+    {
+      "id": "4",
+      "brand": "Lexus",
+      "model": "IS",
+      "type": "Sedan",
+      "year": 2023,
+      "image": "https://i.ibb.co/YFk8BWZp/4.webp",
+      "pricePerDay": 570,
+      "availability": true,
+      "description": "The 2023 Lexus IS offers a refined ride with a focus on comfort and reliability, featuring a sleek design and advanced safety features.",
+      "seats": 5,
+      "fuelType": "Gasoline",
+      "color": "gray",
+      "Gearbox": "Automatic",
+      "count": 1,
+      "isInCart": false,
+      "categoryId": 1
+    },
+    {
+      "id": "5",
+      "brand": "Tesla",
+      "model": "Model 3",
+      "type": "Sedan",
+      "year": 2023,
+      "image": "https://i.ibb.co/fdkKRMr2/5.png",
+      "pricePerDay": 620,
+      "availability": true,
+      "description": "The 2023 Tesla Model 3 offers impressive electric range, cutting-edge technology, and exhilarating performance.",
+      "seats": 5,
+      "fuelType": "Electric",
+      "color": "Blue",
+      "Gearbox": "Automatic",
+      "count": 1,
+      "isInCart": false,
+      "categoryId": 1
+    },
+    {
+      "id": "6",
+      "brand": "Volvo",
+      "model": "S60",
+      "type": "Sedan",
+      "year": 2023,
+      "image": "https://i.ibb.co/ccDt1JGn/6.png",
+      "pricePerDay": 560,
+      "availability": true,
+      "description": "The 2023 Volvo S60 combines Scandinavian design with advanced safety features, offering a comfortable and secure ride.",
+      "seats": 5,
+      "fuelType": "Gasoline",
+      "color": "Black",
+      "Gearbox": "Automatic",
+      "count": 1,
+      "isInCart": false,
+      "categoryId": 1
+    },
+    {
+      "id": "7",
+      "brand": "Audi",
+      "model": "Q5",
+      "type": "SUV",
+      "year": 2022,
+      "image": "https://i.ibb.co/XZRwN5PW/7.png",
+      "pricePerDay": 580,
+      "availability": true,
+      "description": "Audi Q5 blends luxury, technology, and performance in a compact SUV. Ideal for family and business trips.",
+      "seats": 5,
+      "fuelType": "Gasoline",
+      "color": "White",
+      "Gearbox": "Automatic",
+      "count": 1,
+      "isInCart": false,
+      "categoryId": 2
+    },
+    {
+      "id": "8",
+      "brand": "BMW",
+      "model": "X3",
+      "type": "SUV",
+      "year": 2024,
+      "image": "https://i.ibb.co/rKZd452L/8.png",
+      "pricePerDay": 610,
+      "availability": true,
+      "description": "The 2024 BMW X3 offers agile performance, upscale cabin materials, and intuitive tech features.",
+      "seats": 5,
+      "fuelType": "Gasoline",
+      "color": "Silver",
+      "Gearbox": "Automatic",
+      "count": 1,
+      "isInCart": false,
+      "categoryId": 2
+    },
+    {
+      "id": "9",
+      "brand": "Hyundai",
+      "model": "Ioniq 5",
+      "type": "Crossover",
+      "year": 2023,
+      "image": "https://i.ibb.co/1tMYv9jd/9.png",
+      "pricePerDay": 550,
+      "availability": false,
+      "description": "The 2023 Hyundai Ioniq 5 is a futuristic electric crossover offering fast charging, spacious interior, and excellent tech features.",
+      "seats": 5,
+      "fuelType": "Electric",
+      "color": "Silver",
+      "Gearbox": "Automatic",
+      "count": 1,
+      "isInCart": false,
+      "categoryId": 3
+    },
+    {
+      "id": "10",
+      "brand": "Kia",
+      "model": "EV6",
+      "type": "Crossover",
+      "year": 2023,
+      "image": "https://i.ibb.co/3Y0JFBrZ/10.png",
+      "pricePerDay": 1500,
+      "availability": true,
+      "description": "The 2023 Kia EV6 combines bold styling with electric efficiency and offers a high-tech, fun-to-drive experience.",
+      "seats": 5,
+      "fuelType": "Electric",
+      "color": "Red",
+      "Gearbox": "Automatic",
+      "count": 1,
+      "isInCart": false,
+      "categoryId": 3
+    },
+    {
+      "id": "11",
+      "brand": "BMW",
+      "model": "i7",
+      "type": "Coupe",
+      "year": 2024,
+      "image": "https://i.ibb.co/0VBWjVt2/11.png",
+      "pricePerDay": 2000,
+      "availability": true,
+      "description": "The 2024 BMW i7 blends electric power with unmatched luxury, featuring a massive theater screen and silent performance.",
+      "seats": 5,
+      "fuelType": "Electric",
+      "color": "Black",
+      "Gearbox": "Automatic",
+      "count": 1,
+      "isInCart": false,
+      "categoryId": 4
+    },
+    {
+      "id": "12",
+      "brand": "Porsche",
+      "model": "Taycan Turbo",
+      "type": "Sedan",
+      "year": 2024,
+      "image": "https://i.ibb.co/Tq7Gn0Gq/12.png",
+      "pricePerDay": 1300,
+      "availability": true,
+      "description": "The Taycan Turbo is Porsche’s electric masterpiece, delivering insane speed with unmistakable Porsche styling.",
+      "seats": 4,
+      "fuelType": "Electric",
+      "color": "White",
+      "Gearbox": "Automatic",
+      "count": 1,
+      "isInCart": false,
+      "categoryId": 1
+    },
+    {
+      "id": "13",
+      "brand": "Lamborghini",
+      "model": "Revuelto",
+      "type": "Coupe",
+      "year": 2024,
+      "image": "https://i.ibb.co/SwPF5J58/13.png",
+      "pricePerDay": 2800,
+      "availability": true,
+      "description": "Lamborghini’s first hybrid hypercar. Mind-blowing design, power, and futuristic performance.",
+      "seats": 2,
+      "fuelType": "Hybrid",
+      "color": "Orange",
+      "Gearbox": "Automatic",
+      "count": 1,
+      "isInCart": false,
+      "categoryId": 4
+    },
+    {
+      "id": "c688",
+      "brand": "Mercedes",
+      "model": "X6",
+      "type": "Crossover",
+      "year": 2025,
+      "pricePerDay": 750,
+      "availability": false,
+      "description": "very nice car",
+      "image": "https://i.ibb.co/gZhfpBwR/14.png",
+      "count": 1,
+      "isInCart": false,
+      "categoryId": 3
+    }
+  ]
+}
